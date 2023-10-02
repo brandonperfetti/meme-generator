@@ -1,25 +1,37 @@
 {
-  "name": "meme-generator",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "20.6.3",
-    "@types/react": "18.2.22",
-    "@types/react-dom": "18.2.7",
-    "autoprefixer": "10.4.15",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.5.1",
-    "next": "13.5.1",
-    "postcss": "8.4.30",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.2.2"
-  }
+	"name": "meme-generator",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^2.33.2",
+		"@trigger.dev/nextjs": "^2.1.0",
+		"@trigger.dev/openai": "^2.1.3",
+		"@trigger.dev/resend": "^2.1.3",
+		"@trigger.dev/sdk": "^2.1.0",
+		"@types/node": "20.6.3",
+		"@types/react": "18.2.22",
+		"@types/react-dom": "18.2.7",
+		"autoprefixer": "10.4.15",
+		"eslint": "8.49.0",
+		"eslint-config-next": "13.4.19",
+		"next": "13.4.19",
+		"postcss": "8.4.30",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-tag-input": "^6.8.1",
+		"tailwindcss": "3.3.3",
+		"typescript": "5.2.2"
+	},
+	"devDependencies": {
+		"@types/react-tag-input": "^6.6.1"
+	},
+	"trigger.dev": {
+		"endpointId": "meme-generator-X2L8"
+	}
 }
