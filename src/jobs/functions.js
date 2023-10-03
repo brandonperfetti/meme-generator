@@ -114,7 +114,7 @@ client.defineJob({
 		await io.sendEvent('caption-save-meme', {
 			name: 'caption.save.meme',
 			payload: {
-				texts: ['Text0', 'Text1'],
+				texts,
 				selectedTemplate,
 				email,
 			},
@@ -167,8 +167,8 @@ client.defineJob({
 			name: 'send.meme',
 			payload: {
 				email,
-				// meme_url: `http://localhost:3000/memes/${selectedTemplate.id}`,
-				meme_url: `https://meme-generator-gilt.vercel.app/memes/${selectedTemplate.id}`,
+				meme_url: `http://localhost:3000/memes/${selectedTemplate.id}`,
+				// meme_url: `https://meme-generator-gilt.vercel.app/memes/${selectedTemplate.id}`,
 			},
 		})
 
