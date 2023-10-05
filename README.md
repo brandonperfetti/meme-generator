@@ -4,12 +4,12 @@
 
 This project assumes you have working knowledge of:
 
-* [Trigger.dev](https://trigger.dev/)
-* [OpenAI](https://openai.com/)
-* [Imgflip](https://imgflip.com/)
-* [Supabase](https://supabase.io/)
-* [Resend](https://resend.io/)
-* [Next.js](https://nextjs.org/)
+- [Trigger.dev](https://trigger.dev/)
+- [OpenAI](https://openai.com/)
+- [Imgflip](https://imgflip.com/)
+- [Supabase](https://supabase.io/)
+- [Resend](https://resend.io/)
+- [Next.js](https://nextjs.org/)
 
 ## Getting Started
 
@@ -30,6 +30,7 @@ IMGFLIP_PW=your_imgflip_password
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 RESEND_API_KEY=your_resend_api_key
+BASE_URL=http://localhost:3000
 ```
 
 Then run the development server:
