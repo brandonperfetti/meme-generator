@@ -167,8 +167,7 @@ client.defineJob({
 			name: 'send.meme',
 			payload: {
 				email,
-				// meme_url: `http://localhost:3000/memes/${selectedTemplate.id}`,
-				meme_url: `https://meme-generator-gilt.vercel.app/memes/${selectedTemplate.id}`,
+				meme_url: `${process.env.BASE_URL}/memes/${selectedTemplate.id}`,
 			},
 		})
 
